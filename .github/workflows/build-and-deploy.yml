@@ -69,7 +69,7 @@ jobs:
 
     steps:
     - name: Download site from Artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: _site
         path: _site/
